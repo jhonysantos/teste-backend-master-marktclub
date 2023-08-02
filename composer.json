@@ -2,7 +2,7 @@
     "name": "teste/backend",
     "autoload": {
         "psr-4": {
-            "App\\": "app/"
+            "Classes\\": "classes/"
         }
     }
 }
