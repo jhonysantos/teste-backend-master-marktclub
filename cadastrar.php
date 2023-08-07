@@ -13,8 +13,6 @@ $usuario = new Usuario();
 //validação do POST
 if (isset($_POST['nome'], $_POST['cpf'], $_POST['email'], $_POST['senha'], $_POST['status'], $_POST['permissao'])) {
 
-
-    
     $usuario->nome = $_POST['nome'];
     $usuario->cpf = $_POST['cpf'];
     $usuario->email = $_POST['email'];

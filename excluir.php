@@ -32,13 +32,6 @@ if (isset($_POST['excluir'])) {
     exit; 
 }
 
-// validação do campo status
-function selected($valor, $selected)
-{
-    return $valor == $selected ? 'selected="selected"' : '';
-}
 
-// validacao de campo de permissão
-$permissoes = explode(",", $usuario->permissao);
 
 include __DIR__ . '/confirmarExclusao.php';
